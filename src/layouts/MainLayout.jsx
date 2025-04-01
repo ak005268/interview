@@ -1,18 +1,17 @@
-import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
-import SideBar from "../components/Sidebar.jsx/SideBar";
+import Sidebar from "./Sidebar"
 
 
-const MainLayout =({children})=>{
+
+const MainLayout = ({ children }) => {
 
 
-    return(
+    return (
 
 
         <div className="flex">
-<SideBar/>
+            <Sidebar />
 
-         {children}
+            {children}
         </div>
     )
 }

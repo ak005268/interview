@@ -10,11 +10,18 @@ const SideBar = () => {
         }
     }, [])
 
+    const LogoutHandler=()=>{
+        localStorage.removeItem(authentication)
+        navigate('/')
+    }
+
     return (
 
         <div className="w-[200px] h-screen bg-blue-200" >
             <div>
                 Sidebar
+
+                <button onClick={LogoutHandler}>Logout</button>
             </div>
         </div>
     )

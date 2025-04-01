@@ -48,13 +48,13 @@ const Login = () => {
                             <label className="mt-10">Username</label>
                             <div>
 
-                                <input className="border border-black" type="text" name="username" onChange={handleChange} placeholder="Enter your user name" />
+                                <input required className="border border-black" type="text" name="username" onChange={handleChange} placeholder="Enter your user name" />
                             </div>
 
                             <label>password</label>
                             <div>
 
-                                <input className="border border-black" type="password" name="password" onChange={handleChange} placeholder="Enter your password" />
+                                <input required className="border border-black" type="password" name="password" onChange={handleChange} placeholder="Enter your password" />
                             </div>
 
                         </div>
