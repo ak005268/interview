@@ -10,7 +10,7 @@ const MainLayout = ({ children }) => {
 
         <div className="flex">
             <Sidebar />
-
+dashboard
             {children}
         </div>
     )

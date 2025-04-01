@@ -11,7 +11,7 @@ const SideBar = () => {
     }, [])
 
     const LogoutHandler=()=>{
-        localStorage.removeItem(authentication)
+        localStorage.removeItem("authentication")
         navigate('/')
     }
 
