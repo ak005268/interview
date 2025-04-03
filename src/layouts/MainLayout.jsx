@@ -7,7 +7,7 @@ const MainLayout = ({ children }) => {
             <Sidebar />
 
             {/* Main Content Area */}
-            <div className="flex-1 flex flex-col pl-[220px  ]">
+            <div className="flex-1 flex flex-col pl-[220px]">
                 {/* Header */}
                 <header className="w-full bg-blue-500 text-white py-4 px-6 shadow-md">
                     <h1 className="text-lg font-bold">Dashboard</h1>
