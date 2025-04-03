@@ -1,4 +1,4 @@
-import { useCallback, useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 
@@ -29,6 +29,17 @@ const Login = () => {
         }
 
     };
+
+    const authentication = localStorage.getItem("authentication");
+
+    useEffect(() => {
+        if (authentication) {
+            navigate("/dashboard");
+        }
+    }, [authentication, navigate]);
+
+
+
 
     return (<div>
 

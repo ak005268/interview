@@ -4,6 +4,7 @@ import './App.css'
 import Login from"./pages/login/Login"
 import Dashboard from './pages/dashboard'
 import MainLayout from './layouts/MainLayout'
+import Post from './pages/post/Post'
 
 function App() {
 
@@ -18,7 +19,15 @@ function App() {
   <Dashboard/>
 </MainLayout>}/>
 
+
+<Route path='/post' element={<MainLayout>
+  <Post/>
+</MainLayout>}/>
+
+
    </Routes>
+
+   
    
    </BrowserRouter>
    </>

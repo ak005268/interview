@@ -2,7 +2,7 @@ const Dashboard=()=>{
 
     return(<>
     
-    <div>Welcome to dashBoard</div>
+    <div className="font-bold text-6xl">Welcome to dashBoard</div>
 
     </>)
 
